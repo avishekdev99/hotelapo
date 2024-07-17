@@ -306,6 +306,15 @@ nav {
 /* footer section end */
 
 /* sub pages css start */
+.sub-banner{
+    height: 65vh;
+}
+.sub-banner .banner-text h1 {
+    font-size: 45px;
+}
+.sub-banner .banner-text p {
+    font-size: 18px;
+}
 .moretext, .moretextt {
     display: none;
   }
@@ -388,5 +397,11 @@ a.moreless-button:hover{
 }
 .read-vist-btn .read-more{
     margin-top: 10px;
+}
+.site-heading {
+    margin-bottom: 50px;
+}
+.hotel-main .col-md-6, .hotel-main .col-md-12 {
+    margin-bottom: 25px;
 }
 /* sub pages css end */

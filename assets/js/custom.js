@@ -25,3 +25,24 @@ $('.moreless-button').click(function() {
   }
 });
 
+// $('.contless-button').click(function() {
+//     $('.moretextt').slideToggle();
+//     if ($('.moreless-button').text() == "Read more") {
+//       $(this).text("Read less")
+//     } else {
+//       $(this).text("Read more")
+//     }
+//   });
+
+
+$('.contless-button').click(function() {
+    var $this = $(this);
+    var $moreText = $this.closest('.hotel-text').find('.moretextt');
+  
+    $moreText.slideToggle();
+    if ($this.text() == "Read more") {
+      $this.text("Read less");
+    } else {
+      $this.text("Read more");
+    }
+  });
