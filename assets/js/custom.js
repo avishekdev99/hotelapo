@@ -9,30 +9,23 @@ $(document).ready(function(){
 
 $(window).scroll(function(){
     if ($(window).scrollTop() >= 200) {
-        $('header').addClass('fixed-header');
+        $('.site-header').addClass('fixed-header');
     }
     else {
-        $('header').removeClass('fixed-header');
+        $('.site-header').removeClass('fixed-header');
     }
 });
 
 $('.moreless-button').click(function() {
   $('.moretext').slideToggle();
-  if ($('.moreless-button').text() == "Read more") {
-    $(this).text("Read less")
+  if ($('.moreless-button').text() == "Les mer") {
+    $(this).text("lese mindre")
   } else {
-    $(this).text("Read more")
+    $(this).text("Les mer")
   }
 });
 
-// $('.contless-button').click(function() {
-//     $('.moretextt').slideToggle();
-//     if ($('.moreless-button').text() == "Read more") {
-//       $(this).text("Read less")
-//     } else {
-//       $(this).text("Read more")
-//     }
-//   });
+
 
 
 $('.contless-button').click(function() {
@@ -40,9 +33,9 @@ $('.contless-button').click(function() {
     var $moreText = $this.closest('.hotel-text').find('.moretextt');
   
     $moreText.slideToggle();
-    if ($this.text() == "Read more") {
-      $this.text("Read less");
+    if ($this.text() == "Les mer") {
+      $this.text("lese mindre");
     } else {
-      $this.text("Read more");
+      $this.text("Les mer");
     }
   });
