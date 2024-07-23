@@ -48,7 +48,7 @@
         font-size: 14px;
     }
     .toggle {
-        font-size: 1.5625rem;
+        font-size: 1.8rem;
         color: #000;
         line-height: normal;
         display: block;
@@ -175,10 +175,9 @@
     .banner-text p {
         word-break: break-all;
         padding: 0 20px;
+        font-size: 1.24rem;
     }
-    .ptb-50 {
-        padding: 30px 0;
-    }
+  
     .site-heading h2 {
         font-size: 1.8rem;
         word-wrap: break-word;

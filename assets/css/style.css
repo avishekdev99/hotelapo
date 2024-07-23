@@ -691,3 +691,14 @@ a.moreless-button:hover {
 .privacy-wrap{
     margin: 20px 0;
 }
+.copy-right {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.copy-right p{
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: #444;
+}
